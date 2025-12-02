@@ -1,9 +1,9 @@
 name: Patch ONE odroidgo3-joypad DTB
 
-  on:
+on:
   workflow_dispatch:
     inputs:
-      dtb_path:
+      dtb_path: "rf3536k4ka.dtb"
       amux_map:
         description: "Permutation: RX,RY,LX,LY | Absolute: abs:RX,RY,LY,LX | or 'unchanged'"
         required: true
