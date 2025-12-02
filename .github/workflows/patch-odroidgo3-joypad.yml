@@ -8,7 +8,7 @@ on:
         required: true
         default: "rk3326-xf36pro-linux.dtb"
       amux_map:
-        description: "Permutation: LX,LY,RY,RX | Absolute: abs:RX,RY,LY,LX | or 'unchanged'"
+        description: "Permutation: LX,RY,RX,LY | Absolute: abs:RX,RY,LY,LX | or 'unchanged'"
         required: true
         default: "unchanged"
       invert_axes:
