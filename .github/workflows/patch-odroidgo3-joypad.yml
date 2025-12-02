@@ -2,7 +2,6 @@ name: Patch ONE odroidgo3-joypad DTB
 
 on:
   workflow_dispatch:
-    inputs:
       amux_map:
         description: "Permutation: RX,RY,LX,LY | Absolute: abs:RX,RY,LY,LX | or 'unchanged'"
         required: true
