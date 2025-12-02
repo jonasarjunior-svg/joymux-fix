@@ -2,7 +2,7 @@ name: Patch ONE odroidgo3-joypad DTB
 
 on:
   workflow_dispatch:
-    inputs:
+      inputs:
       dtb_path:
         description: "Path to DTB in repo (e.g. dtbs/og3/odroidgo3.dtb)"
         required: true
