@@ -11,7 +11,7 @@ on:
         description: "Permutation: RX,RY,LX,LY | Absolute: abs:RX,RY,LY,LX | or 'unchanged'"
         required: true
         default: "unchanged"
-      invert_axes: "ry"
+      invert_axes:
         description: "Use 'unchanged' OR CSV with lx,ly,rx,ry (e.g. lx,rx)"
         required: false
         default: "unchanged"
